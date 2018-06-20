@@ -1,16 +1,16 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# Test network throughput.
+# Testa a vazão da rede
 #
 # Usage:
 # 1) on host_A: throughput -s [port]                                                # start a server
-# 2) on host_B: throughput -c  count -h host_A -p port [-b bufsize] [-t tempo]      # start a client
+# 2) on host_B: throughput -c  count -h host_A -p [port] [-b bufsize] [-t tempo]      # start a client
 #
-# The server will service multiple clients until it is killed.
+# O servidor irá servir múltiplos clientes até ser desligado
 #
-# The client performs one transfer of count*BUFSIZE bytes and
-# measures the time it takes (roundtrip!).
+# O cliente realiza uma transferência de count*BUFSIZE bytes e
+# mede o tempo que demora (roundtrip!)
 #
 # Tempo em segundos!!!!!!
 
