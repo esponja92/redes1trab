@@ -3,8 +3,8 @@
 # Test network throughput.
 #
 # Usage:
-# 1) on host_A: throughput -s [port]                    # start a server
-# 2) on host_B: throughput -c  count host_A [port]      # start a client
+# 1) on host_A: throughput -s [port]                                    # start a server
+# 2) on host_B: throughput -c  count -h host_A -p port [-b bufsize]      # start a client
 #
 # The server will service multiple clients until it is killed.
 #
@@ -60,14 +60,30 @@ def server():
 
 
 def client():
-    if len(sys.argv) < 4:
+
+    global BUFSIZE
+
+    if ('-c' not in sys.argv) or ('-h' not in sys.argv) or ('-p' not in sys.argv):
         usage()
-    count = int(eval(sys.argv[2]))
-    host = sys.argv[3]
-    if len(sys.argv) > 4:
-        port = eval(sys.argv[4])
+
+    if '-c' in sys.argv:
+        pos = sys.argv.index('-c') + 1 # o tamanho do bufsize eh o proximo 
+        count = int(eval(sys.argv[pos]))
+
+    if '-h' in sys.argv:
+        pos = sys.argv.index('-h') + 1 # o tamanho do bufsize eh o proximo 
+        host = sys.argv[pos]
+    
+    if '-p' in sys.argv:
+        pos = sys.argv.index('-p') + 1 # o tamanho do bufsize eh o proximo 
+        port = eval(sys.argv[pos])
     else:
         port = MY_PORT
+
+    if '-b' in sys.argv:
+        pos = sys.argv.index('-b') + 1 # o tamanho do bufsize eh o proximo 
+        BUFSIZE = int(eval(sys.argv[pos]))
+
     testdata = 'x' * (BUFSIZE-1) + '\n'
     t1 = time.time()
     s = socket(AF_INET, SOCK_STREAM)
@@ -83,10 +99,11 @@ def client():
     data = s.recv(BUFSIZE)
     t5 = time.time()
     print data
-    print 'Raw timers:', t1, t2, t3, t4, t5
-    print 'Intervals:', t2-t1, t3-t2, t4-t3, t5-t4
-    print 'Total:', t5-t1
-    print 'Throughput:', round((BUFSIZE*count*0.001) / (t5-t1), 3),
+    print '\nTamanho do pacote:', BUFSIZE
+    print '\nRaw timers:', t1, t2, t3, t4, t5
+    print '\nIntervalos:', t2-t1, t3-t2, t4-t3, t5-t4
+    print '\nTotal:', t5-t1
+    print '\nThroughput:', round((BUFSIZE*count*0.001) / (t5-t1), 3), #POR QUE ESSE 0.001???
     print 'K/sec.'
 
 

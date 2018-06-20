@@ -2,11 +2,11 @@ Para fazer:
 
 1) Implementar o tempo entre geração de pacotes (informar o tempo por parâmetros)
 
-2) Implementar a função de informar o tamanho do pacote por parâmetro
-
 Feito:
 
 1) O número de pacotes já está sendo informado por parâmetro (parâmetro 'count')
 
 2) O 'server' já aceita conexões paralelas
+
+3) Implementar a função de informar o tamanho do pacote por parâmetro (-b [bufsize])
 
