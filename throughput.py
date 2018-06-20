@@ -37,7 +37,7 @@ def main():
 def usage():
     sys.stdout = sys.stderr
     print 'Usage:    (on host_A) throughput -s [port]'
-    print 'and then: (on host_B) throughput -c count host_A [port]'
+    print 'and then: (on host_B) throughput -c  count -h host_A -p [port] [-b bufsize] [-t seconds]'
     sys.exit(2)
 
 
