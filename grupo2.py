@@ -17,8 +17,19 @@
 '''
 cenário 1:
 
-python grupo2.py -c 2 -h 54.85.161.250 -p 3421 -b 1024 -t 1
+python grupo2.py -c 10 -h 54.85.161.250 -p 3421 -b 1024 -t 1
 
+
+
+cenário 2: (para rodar com 3 clientes)
+
+python grupo2.py -c 30 -h 54.85.161.250 -p 3421 -b 4096 -t 3
+
+
+
+cenário 3:
+
+python grupo2.py -c 15 -h 54.85.161.250 -p 3421 -b 2048 -r
 '''
 
 
@@ -34,10 +45,33 @@ BUFSIZE = 1024
 def main():
     if len(sys.argv) < 2:
         usage()
+
     if sys.argv[1] == '-s':
         server()
+
     elif sys.argv[1] == '-c':
         client()
+
+    elif sys.argv[1] == '-servidor':
+        parametros = sys.argv[0] + ' -s 3421'
+        sys.argv = parametros.split()
+        server()
+
+    elif sys.argv[1] == '-cenario1':
+        parametros = sys.argv[0] + ' -c 10 -h 54.85.161.250 -p 3421 -b 1024 -t 1'
+        sys.argv = parametros.split()
+        client()
+
+    elif sys.argv[1] == '-cenario2':
+        parametros = sys.argv[0] + ' -c 30 -h 54.85.161.250 -p 3421 -b 4096 -t 3 -r'
+        sys.argv = parametros.split()
+        client()
+
+    elif sys.argv[1] == '-cenario3':
+        parametros = sys.argv[0] + ' -c 15 -h 54.85.161.250 -p 3421 -b 2048 -t 0.2 -r'
+        sys.argv = parametros.split()
+        client()
+
     else:
         usage()
 
@@ -96,6 +130,8 @@ def client():
 
     tempo = 0
 
+    rajada = False
+
     vazoes = []
 
     if ('-c' not in sys.argv) or ('-h' not in sys.argv) or ('-p' not in sys.argv):
@@ -123,6 +159,9 @@ def client():
         pos = sys.argv.index('-t') + 1
         tempo = float(sys.argv[pos])
 
+    if '-r' in sys.argv:
+        rajada = True
+
     testdata = 'x' * (BUFSIZE-1) + '\n'
     t1 = time.time()
     s = socket(AF_INET, SOCK_STREAM)
@@ -131,9 +170,14 @@ def client():
     #t3 = time.time()
 
     for i in range(count):
-        i = i+1
+        
         s.send(testdata)
+
+        if (i == 0) and (rajada):
+            time.sleep(10)
+
         time.sleep(tempo)
+        i = i+1
 
     s.shutdown(1) # Send EOF
     #t4 = time.time()
@@ -146,15 +190,5 @@ def client():
     print 'Vazão: ', vazao,' KB/s'
     print 'Tempo entre geração de pacotes (segundos): ', tempo,' segundos'
 
-'''
-        print data
-        print 'Tamanho do pacote:', BUFSIZE
-        print '\nTempo entre geração de pacotes (segundos):', tempo
-        print '\nRaw timers:', t1, t2, t3, t4, t5
-        print '\nIntervalos:', t2-t1, t3-t2, t4-t3, t5-t4
-        print '\nTotal:', t5-t1
-        print '\nThroughput:', round((BUFSIZE*count*0.001) / (t5-t1), 3), 
-        print 'KB/s.'
-'''
 
 main()
