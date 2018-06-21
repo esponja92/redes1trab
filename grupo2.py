@@ -27,7 +27,7 @@ python grupo2.py -c 30 -h 54.85.161.250 -p 3421 -b 4096 -t 3
 
 
 
-cenário 3:
+cenário 3: (para rodar com 5 clientes)
 
 python grupo2.py -c 15 -h 54.85.161.250 -p 3421 -b 2048 -r
 '''
@@ -68,7 +68,7 @@ def main():
         client()
 
     elif sys.argv[1] == '-cenario3':
-        parametros = sys.argv[0] + ' -c 15 -h 54.85.161.250 -p 3421 -b 2048 -t 0.2 -r'
+        parametros = sys.argv[0] + ' -c 15 -h 54.85.161.250 -p 3421 -b 2048 -t 0.005 -r'
         sys.argv = parametros.split()
         client()
 
