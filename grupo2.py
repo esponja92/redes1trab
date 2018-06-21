@@ -14,6 +14,13 @@
 #
 # Tempo em segundos!!!!!!
 
+'''
+cenário 1:
+
+python grupo2.py -c 2 -h 54.85.161.250 -p 3421 -b 1024 -t 1
+
+'''
+
 
 import sys, time
 from socket import *
@@ -123,25 +130,21 @@ def client():
     s.connect((host, port))
     #t3 = time.time()
 
-    for t in range(10):
+    for i in range(count):
+        i = i+1
+        s.send(testdata)
+        time.sleep(tempo)
 
-        for i in range(count):
-            i = i+1
-            s.send(testdata)
-            time.sleep(tempo)
+    s.shutdown(1) # Send EOF
+    #t4 = time.time()
+    data = s.recv(BUFSIZE)
+    t5 = time.time()
 
-        s.shutdown(1) # Send EOF
-        #t4 = time.time()
-        data = s.recv(BUFSIZE)
-        t5 = time.time()
+    vazao = round((BUFSIZE*count*0.001) / (t5-t1), 3)
 
-        vazao = round((BUFSIZE*count*0.001) / (t5-t1), 3)
-        vazoes.append(vazao)
-
-    print 'Tamanho do pacote:', BUFSIZE
-    print '\nTempo entre geração de pacotes (segundos):', tempo
-    print 'Vazão média', media(vazoes)
-    print 'Desvio padrão', desvioPadrao(vazoes)
+    print '\nTamanho do pacote: ', BUFSIZE,' bytes'
+    print 'Vazão: ', vazao,' KB/s'
+    print 'Tempo entre geração de pacotes (segundos): ', tempo,' segundos'
 
 '''
         print data
