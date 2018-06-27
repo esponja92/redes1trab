@@ -51,6 +51,10 @@ BUFSIZE = 1024
 
 threads = 1
 
+valores = []
+
+lock = threading.Lock()
+
 def main():
 
     global threads
@@ -75,24 +79,28 @@ def main():
 
         if '-th' in sys.argv:
             pos = sys.argv.index('-th') + 1 
-            threads = int(sys.argv[pos])
+            threads = int(sys.argv[pos]) - 1
 
         if sys.argv[1] == '-cenario1':
             parametros = sys.argv[0] + ' -c 10 -h 54.85.161.250 -p 3421 -b 1024 -t 1'
+            sys.argv = parametros.split()
 
         if sys.argv[1] == '-cenario2':
             parametros = sys.argv[0] + ' -c 30 -h 54.85.161.250 -p 3421 -b 4096 -t 3 -r'
             threads = 3
+            sys.argv = parametros.split()
 
         if sys.argv[1] == '-cenario3':
             parametros = sys.argv[0] + ' -c 15 -h 54.85.161.250 -p 3421 -b 2048 -t 0.005 -r'
             threads = 4
-
-        sys.argv = parametros.split()
+            sys.argv = parametros.split()
 
         for i in range(threads):
             threading.Thread(target=client).start()
 
+        while len(valores) < threads + 1: a = 1 #fazer nada
+
+        print 'Vazão: ', sum(valores)/len(valores),' KB/s'
 
 def usage():
     sys.stdout = sys.stderr
@@ -204,8 +212,12 @@ def client():
 
     vazao = round((BUFSIZE*count*0.001) / (t5-t1), 3)
 
+    while(not lock.acquire()): a = 1 #fazer nada
+
+    valores.append(vazao)
+    lock.release()
+
     print '\nTamanho do pacote: ', BUFSIZE,' bytes'
-    print 'Vazão: ', vazao,' KB/s'
     print 'Tempo entre geração de pacotes (segundos): ', tempo,' segundos'
 
 

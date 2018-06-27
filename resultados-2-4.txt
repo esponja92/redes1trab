@@ -1,0 +1,908 @@
+################ TESTES DE QNT DE CONEXÕES
+################ 2 CONEXÕES EM PARALELO
+
+
+Qua Jun 27 03:12:32 BRT 2018
+-= 2 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  197.498  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  175.406  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:12:54 BRT 2018
+-= 2 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  182.536  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  191.227  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:13:16 BRT 2018
+-= 2 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  185.424  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  209.332  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:13:37 BRT 2018
+-= 2 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  236.496  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  229.937  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:13:55 BRT 2018
+-= 2 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  186.975  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  182.56  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:14:17 BRT 2018
+-= 2 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  189.393  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  233.0  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:14:37 BRT 2018
+-= 2 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  186.028  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  237.494  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:14:56 BRT 2018
+-= 2 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  170.043  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  241.377  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:15:17 BRT 2018
+-= 2 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  159.443  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  248.473  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:15:38 BRT 2018
+-= 2 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  162.063  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  199.721  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:16:01 BRT 2018
+-= 2 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  161.654  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  224.626  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:16:23 BRT 2018
+-= 2 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  196.603  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  212.435  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:16:43 BRT 2018
+-= 2 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  233.229  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  191.675  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:17:02 BRT 2018
+-= 2 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  240.094  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  204.449  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:17:21 BRT 2018
+-= 2 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  188.081  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  182.925  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:17:43 BRT 2018
+-= 2 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  212.51  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  238.436  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:18:01 BRT 2018
+-= 2 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  234.052  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  237.736  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:18:19 BRT 2018
+-= 2 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  228.562  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  177.317  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:18:39 BRT 2018
+-= 2 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  245.544  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  242.685  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:18:56 BRT 2018
+-= 2 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  209.659  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  230.697  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:19:15 BRT 2018
+-= 2 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  230.079  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  207.615  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:19:34 BRT 2018
+-= 2 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  70.204  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  224.562  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:20:12 BRT 2018
+-= 2 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  186.415  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  166.67  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:20:35 BRT 2018
+-= 2 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  213.278  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  164.12  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:20:57 BRT 2018
+-= 2 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  231.273  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  194.345  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:21:17 BRT 2018
+-= 2 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  225.145  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  254.615  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:21:34 BRT 2018
+-= 2 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  204.421  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  213.615  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:21:54 BRT 2018
+-= 2 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  202.998  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  206.344  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:22:14 BRT 2018
+-= 2 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  196.093  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  177.831  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:22:36 BRT 2018
+-= 2 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  244.095  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  238.963  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+################ 4 CONEXÕES EM PARALELO
+
+
+Qua Jun 27 03:22:53 BRT 2018
+-= 4 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  247.592  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  149.786  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  89.381  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  62.545  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:23:34 BRT 2018
+-= 4 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  204.255  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  124.798  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  68.625  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  47.546  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:24:27 BRT 2018
+-= 4 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  240.491  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  140.828  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  89.174  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  69.206  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:25:05 BRT 2018
+-= 4 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  182.799  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  202.054  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  91.532  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  59.096  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:25:51 BRT 2018
+-= 4 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  175.077  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  205.64  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  98.337  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  64.328  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:26:35 BRT 2018
+-= 4 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  213.939  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  195.969  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  83.537  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  56.916  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:27:20 BRT 2018
+-= 4 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  229.615  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  153.818  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  90.124  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  63.309  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:28:02 BRT 2018
+-= 4 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  229.297  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  143.434  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  96.046  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  60.173  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:28:45 BRT 2018
+-= 4 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  218.595  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  239.48  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  100.571  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  63.609  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:29:26 BRT 2018
+-= 4 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  210.22  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  125.891  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  73.772  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  52.59  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:30:15 BRT 2018
+-= 4 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  210.521  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  164.443  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  100.181  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  61.01  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:30:58 BRT 2018
+-= 4 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  217.324  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  158.754  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  100.132  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  63.922  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:31:40 BRT 2018
+-= 4 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  228.25  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  118.403  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  77.761  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  55.157  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:32:26 BRT 2018
+-= 4 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  214.785  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  224.541  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  105.201  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  68.193  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:33:06 BRT 2018
+-= 4 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  241.193  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  158.509  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  79.858  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  58.527  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:33:49 BRT 2018
+-= 4 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  245.545  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  151.906  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  71.144  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  51.454  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:34:38 BRT 2018
+-= 4 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  205.204  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  175.602  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  93.104  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  61.849  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:35:21 BRT 2018
+-= 4 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  215.464  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  153.606  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  80.739  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  57.172  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:36:06 BRT 2018
+-= 4 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  207.297  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  226.555  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  102.804  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  65.949  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:36:47 BRT 2018
+-= 4 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  230.641  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  152.997  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  84.166  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  56.901  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:37:32 BRT 2018
+-= 4 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  210.466  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  209.217  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  96.832  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  62.489  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:38:15 BRT 2018
+-= 4 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  213.302  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  142.099  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  75.403  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  53.514  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:39:02 BRT 2018
+-= 4 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  218.787  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  159.07  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  100.252  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  63.686  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:39:44 BRT 2018
+-= 4 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  199.965  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  142.367  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  81.894  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  60.634  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:40:28 BRT 2018
+-= 4 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  206.551  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  135.925  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  79.745  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  54.279  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:41:16 BRT 2018
+-= 4 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  239.512  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  158.957  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  87.311  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  57.071  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:42:00 BRT 2018
+-= 4 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  207.058  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  216.534  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  96.433  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  63.529  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:42:42 BRT 2018
+-= 4 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  180.471  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  176.969  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  91.956  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  59.265  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:43:28 BRT 2018
+-= 4 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  210.956  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  233.386  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  106.279  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  65.466  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Qua Jun 27 03:44:09 BRT 2018
+-= 4 CNX
+
+Tamanho do pacote:  1024  bytes
+Vazão:  242.239  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  146.85  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  80.271  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+Tamanho do pacote:  1024  bytes
+Vazão:  54.036  KB/s
+Tempo entre geração de pacotes (segundos):  0.0001  segundos
+
+################ 8 CONEXÕES EM PARALELO (faltando)
