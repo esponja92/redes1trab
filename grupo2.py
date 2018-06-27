@@ -49,9 +49,13 @@ MY_PORT = 50000 + 42
 
 BUFSIZE = 1024
 
+threads = 1
+
 def main():
 
-    threads = 1
+    global threads
+
+    parametros = ''
 
     if len(sys.argv) < 2:
         usage()
@@ -69,21 +73,24 @@ def main():
         if sys.argv[1] == '-c':
             client()
 
-        elif sys.argv[1] == '-cenario1':
+        if '-th' in sys.argv:
+            pos = sys.argv.index('-th') + 1 
+            threads = int(sys.argv[pos])
+
+        if sys.argv[1] == '-cenario1':
             parametros = sys.argv[0] + ' -c 10 -h 54.85.161.250 -p 3421 -b 1024 -t 1'
 
-        elif sys.argv[1] == '-cenario2':
+        if sys.argv[1] == '-cenario2':
             parametros = sys.argv[0] + ' -c 30 -h 54.85.161.250 -p 3421 -b 4096 -t 3 -r'
             threads = 3
 
-        elif sys.argv[1] == '-cenario3':
+        if sys.argv[1] == '-cenario3':
             parametros = sys.argv[0] + ' -c 15 -h 54.85.161.250 -p 3421 -b 2048 -t 0.005 -r'
             threads = 4
 
         sys.argv = parametros.split()
 
         for i in range(threads):
-            print i
             threading.Thread(target=client).start()
 
 
