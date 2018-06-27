@@ -1,35 +1,43 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# Testa a vazão da rede
-#
-# Usage:
-# 1) on host_A: python grupo2.py -s [port]                                                  # start a server
-# 2) on host_B: python grupo2.py -c  count -h host_A -p [port] [-b bufsize] [-t tempo]      # start a client
-#
-# O servidor irá servir múltiplos clientes até ser desligado
-#
-# O cliente realiza uma transferência de count*BUFSIZE bytes e
-# mede o tempo que demora (roundtrip!)
-#
-# Tempo em segundos!!!!!!
-
 '''
+Testa a vazão da rede
+
+Uso:
+1) host_A: python grupo2.py -s [port]
+2) host_B: python grupo2.py -c  count -h host_A -p [port] [-b bufsize] [-t tempo]
+
+O servidor irá servir múltiplos clientes até ser desligado
+
+O cliente realiza uma transferência de count*BUFSIZE bytes e
+mede o tempo que demora (roundtrip!) em segundos
+
 cenário 1:
 
-python grupo2.py -c 10 -h 54.85.161.250 -p 3421 -b 1024 -t 1
+$ python grupo2.py -cenario1
 
+ou 
+
+$ python grupo2.py -c 10 -h 54.85.161.250 -p 3421 -b 1024 -t 1
 
 
 cenário 2: (para rodar com 3 clientes)
 
-python grupo2.py -c 30 -h 54.85.161.250 -p 3421 -b 4096 -t 3
+$ python grupo2.py -cenario2
 
+ou 
+
+$ python grupo2.py -c 30 -h 54.85.161.250 -p 3421 -b 4096 -t 3
 
 
 cenário 3: (para rodar com 5 clientes)
 
-python grupo2.py -c 15 -h 54.85.161.250 -p 3421 -b 2048 -r
+$ python grupo2.py -cenario3
+
+ou 
+
+$ python grupo2.py -c 15 -h 54.85.161.250 -p 3421 -b 2048 -r
 '''
 
 
