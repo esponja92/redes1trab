@@ -33,7 +33,7 @@ python grupo2.py -c 15 -h 54.85.161.250 -p 3421 -b 2048 -r
 '''
 
 
-import sys, time
+import sys, time, threading
 from socket import *
 from math import sqrt
 
@@ -41,39 +41,42 @@ MY_PORT = 50000 + 42
 
 BUFSIZE = 1024
 
-
 def main():
+
+    threads = 1
+
     if len(sys.argv) < 2:
         usage()
 
     if sys.argv[1] == '-s':
         server()
 
-    elif sys.argv[1] == '-c':
-        client()
-
     elif sys.argv[1] == '-servidor':
         parametros = sys.argv[0] + ' -s 3421'
         sys.argv = parametros.split()
         server()
 
-    elif sys.argv[1] == '-cenario1':
-        parametros = sys.argv[0] + ' -c 10 -h 54.85.161.250 -p 3421 -b 1024 -t 1'
-        sys.argv = parametros.split()
-        client()
-
-    elif sys.argv[1] == '-cenario2':
-        parametros = sys.argv[0] + ' -c 30 -h 54.85.161.250 -p 3421 -b 4096 -t 3 -r'
-        sys.argv = parametros.split()
-        client()
-
-    elif sys.argv[1] == '-cenario3':
-        parametros = sys.argv[0] + ' -c 15 -h 54.85.161.250 -p 3421 -b 2048 -t 0.005 -r'
-        sys.argv = parametros.split()
-        client()
-
     else:
-        usage()
+
+        if sys.argv[1] == '-c':
+            client()
+
+        elif sys.argv[1] == '-cenario1':
+            parametros = sys.argv[0] + ' -c 10 -h 54.85.161.250 -p 3421 -b 1024 -t 1'
+
+        elif sys.argv[1] == '-cenario2':
+            parametros = sys.argv[0] + ' -c 30 -h 54.85.161.250 -p 3421 -b 4096 -t 3 -r'
+            threads = 3
+
+        elif sys.argv[1] == '-cenario3':
+            parametros = sys.argv[0] + ' -c 15 -h 54.85.161.250 -p 3421 -b 2048 -t 0.005 -r'
+            threads = 4
+
+        sys.argv = parametros.split()
+
+        for i in range(threads):
+            print i
+            threading.Thread(target=client).start()
 
 
 def usage():
